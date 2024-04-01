@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>school-website</title>
+    <style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    background-color: rgb(31, 11, 180);
+    
+    background-size: auto;
+    height: 80px;
+}
+
+.navba{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo {
+    color: #1dfb09;
+    font-size: 90px;
+    font-family: Arial;
+    padding-left: 15px;
+    padding-top: 40px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+    
+}
+
+.menu ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.menu ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+.menu ul li a{
+    text-decoration: #fff;
+    color: #fff;
+    font-family: Times New Roman;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+.menu ul li a:haver{
+    color: #ff7200;
+}
+
+.search{
+    background-color: aqua;
+    display: flex;
+    width: 330px;
+    float: left;
+    margin-left: 300px;
+    background-color: #e14343;
+    
+    
+    float: left;
+    margin-left: 270px;
+    margin-top: 4px;
+    
+}
+
+
+
+
+.btn1{
+    width: 300px;
+    height: 40px;
+    background: #ff7200;
+    border: navajowhite;
+    margin-top: 16px;
+    color: #fff;
+    font-size: 16px;
+    padding-left: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+
+    margin-top: 8px;
+    color: #1f3848;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1{
+    font-family: Times New Roman;
+    font-size: 40px;
+    margin-top: 5%;
+    letter-spacing: 1px;
+}
+
+.content .cnm{
+    width: 150px;
+    height: 40px;
+    background: #ff7200;
+    bottom: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.cnm:hover{
+    background: #ff7200;
+
+}
+
+.content span{
+    color: blueviolet;
+    font-size: 40px;
+}
+
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: Arial;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: arial;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.btnn:hover{
+    background: #000;
+    color: #ff7200;
+}
+
+.btnn a{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+
+.form .link{
+    font-family: Times New Roman;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form .link a{
+    text-decoration: none;
+    color: #ff7200;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="navbar">
+        <div class="icon">
+          
+        </div>
+
+        <div class="menu">
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="new file/setvice.html">Service</a></li>
+            <li><a href="new file/about.html">About</a></li>
+            <li><a href="new file/ManaBarumsa-B-W-.html">disgn</a></li>
+            <li><a href="new file/sigup.html">Contact</a></li>
+            <li><a href="#">help</a></li>
+          </ul>
+        </div>
+        <div style="display: flex; flex: 1; height: 52px">
+          <input
+            class="search"
+            type="text"
+            placeholder="search"
+            style="height: 50px; font-size: medium; background-color: aliceblue; margin-bottom: 10px;
+          "/>
+          <button class="srch-button";>
+          <svg
+            class="srch-icon"
+            enable-background="new 0 0 24 24"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            focusable="false"
+          >
+            <path
+              d="m20.87 20.17-5.59-5.59C16.35 13.35 17 11.75 17 10c0-3.87-3.13-7-7-7s-7 3.13-7 7 3.13 7 7 7c1.75 0 3.35-.65 4.58-1.71l5.59 5.59.7-.71zM10 16c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2. 69 6-6 6z"
+            ></path>
+          </svg>
+        </div>
+        <div class="content" style="margin-top: 0px; margin-left: 50px;">
+            <h1>
+              MANA BARUMSAA BURQAA WAAYYUU SADARKAA 1ffaa
+            </h1>
+            <h2>GAAFFIILEE SHAAKALAA SAAYINSII NAANNOO KUTAA 6FFAA <br /></h2>
+
+          <h2 style="margin: 10px;">MUL'ANNI KEENYA MANA BARUMSAA KEENYA BURQAA BEEKTOOTAA TAASISUUDHA</h2>
+          <h3 style="margin: 40px;"> Gaaffiilee Shaakaluuf EEGALI kan jedhu Cuqaasuun jalqaabuu dandeessaa.</h3>
+          <div style="display: flex; margin-top: 50px">
+            <div>
+                <div class="feature" style="display: flex;"> 
+                    <a href="question31.html">Gaaffile diigdama Boqonnaa 3 Keessa Bahe</a>
+              </div>
+              <div>
+                <a href="question31.html"><button style="padding: 10px; margin-left: 70px; height: 40px; width: 100px; border: none; border-radius: 25px; background-color: gold; cursor: pointer;">Eegali 30%</button></a>
+              </div>
+            </div>
+              <div style="margin-left: 30px;">
+                  <div class="feature" style="display: flex;"> 
+                      <a href="quet.html">Gaaffile diigdama Boqonnaa 3 Keessa Bahe</a>
+                 </div>
+                 <div><a href="quet.html"><button style="padding: 10px; margin-left: 70px; height: 40px; width: 100px; border: none; border-radius: 25px; background-color: gold; cursor: pointer;">Eegali 20%</button></a>
+                 </div>
+              </div>
+            
+        </div>
+      </div>
+    </div>
+    <div style="display: flex; margin-top: 70px">
+      <footer
+        style="
+          height: 100px;
+          background-color: black;
+          position: fixed;
+
+          left: 0;
+          right: 0;
+          bottom: 0;
+        "
+      >
+        <p style="color: gold; padding-left: 300px">
+          Designed by AM <br />
+          abdiisabasaa@gmail.com
+        </p>
+        <p style="color: white; margin-left: 300px">
+          Copyright &copy; 2023 WWW.MBBW.gov.et.com
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
